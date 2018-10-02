@@ -208,7 +208,8 @@ nav h1 a {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
 }
 #restaurant-name {
   color: #f18200;
@@ -239,12 +240,14 @@ nav h1 a {
   text-align: center;
   text-transform: uppercase;
 	width: 90%;
+	/* width: 100%; */
 }
 #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
-  width: 50%;
+  /* width: 50%; */
+  width: 100%;
 }
 #reviews-container {
   padding: 30px 40px 80px;
@@ -269,7 +272,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  /* width: 85%; */
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -356,24 +359,3 @@ nav h1 a {
 
 }
 
-/* Media query for restaurant review */
-
-@media screen and (max-width: 760px) {
-
-
-}
-
-@media screen and (min-width: 760px) and (max-width: 960px) {
-  
-}
-
-
-
-@media screen and (min-width: 960px) {
-  body{
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-}
