@@ -5,7 +5,7 @@
 
 This web app is used to display restaurant and its detail in your neighborhoods area.
 
-### Usage
+### How to use
 
 - Click on All Neighborhoods to select area.
 - Choose cuisines in the next button
